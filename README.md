@@ -7,13 +7,20 @@ Just some sample code to try Rust with WebAssembly.
 * Quick and dirty adaptation to Rust of [this implementation](https://mail.python.org/pipermail/edu-sig/2006-July/006810.html) of Gibbon's spigot algorithm.
 
 ## Usage
-Run
+As described in the [Rust and WebAssembly tutorial](https://rustwasm.github.io/docs/book/), run
 
 ```
+wasm-pack build
+```
+
+inside the root folder, and then
+
+```
+npm install
 npm run start
 ```
 
-inside the `www` folder as described in the [Rust and WebAssembly tutorial](https://rustwasm.github.io/docs/book/). 
+inside the `www` folder. The application should display on http://localhost:8080/
 
 ## License
 
