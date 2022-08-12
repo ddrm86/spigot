@@ -1,0 +1,6 @@
+#pi-digit {
+    line-height: 0;
+    font-size: 50px;
+    text-align: center;
+    transition: font-size 1000ms;
+}
